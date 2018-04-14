@@ -1,0 +1,40 @@
+.main{
+	height: 1000px;
+	width: 80%;
+	margin: 0 auto;
+	border: 1px solid lightgray;
+	padding:30px;
+}
+.all{
+	margin-top: 30px;
+}
+.all:hover .basliq{
+	cursor: pointer;
+}
+.text1{
+	width: 100%;
+}
+.basliq{
+	width: 100%;
+	background-color: lightgray;	
+}
+h5{
+	font-size: 1.5em;
+}
+i{
+	display: inline-block;	
+	margin-left: 10px;
+}
+p{
+	display: none;
+	text-align: center;
+}
+.active .basliq{
+	background-color: blue;
+}
+.active i{
+	transform:rotate(90deg); 
+}
+.active p{
+	display: block;
+}
